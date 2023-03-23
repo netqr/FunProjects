@@ -23,19 +23,19 @@ int main() {
 	switch (operation) {
 		case '+':
 			result = calc::add(num1, num2);
-			std::cout << num1 << " + " << num2 << " = " << result;
+			std::cout << num1 << " + " << num2 << " = " << result << "\n";
 			break;
 		case '-':
 			result = calc::sub(num1, num2);
-			std::cout << num1 << " - " << num2 << " = " << result;
+			std::cout << num1 << " - " << num2 << " = " << result << "\n";
 			break;
 		case '*':
 			result = calc::mul(num1, num2);
-			std::cout << num1 << " * " << num2 << " = " << result;
+			std::cout << num1 << " * " << num2 << " = " << result << "\n";
 			break;
 		case '/':
 			result = calc::div(num1, num2);
-			std::cout << num1 << " / " << num2 << " = " << result;
+			std::cout << num1 << " / " << num2 << " = " << result << "\n";
 			break;
 		default:
 			std::cout << "Invalid operand!\n";
