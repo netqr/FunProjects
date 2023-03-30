@@ -1,5 +1,6 @@
 #pragma once
 
+const int PI;
 
 namespace pmFunc {
 	float xVel(float vel, float angle);
