@@ -6,12 +6,12 @@ const float PI = 3.14159;
 namespace pmFunc {
 	float xVel(float vel, float angle){
 		float radians = angle * PI / 180;
-		return vel * cos(angle);
+		return vel * cos(radians);
 	}
 
 	float yVel(float vel, float angle){
 		float radians = angle * PI / 180;
-		return vel * sin(angle);
+		return vel * sin(radians);
 	}
 
 	float quadraticEquation(float a, float b, float c, bool sign) {
