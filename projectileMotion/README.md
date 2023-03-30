@@ -1,16 +1,16 @@
-## Calculator App ##
-This program is a simple cli app which gets two numbers and
-an operand to perform a desired operation. This is one of my first
-programs created in cpp.
+## Projectile Motion Predictor ##
+This program allows for input of speed, angle and y displacement and predicts the landing
+x displacement and time of impact into the ground.
 
 ## Compilation ##
-To compile input these commands in the calculator directory:
+Input the following lines into a teriminal in this directory
 
 	mkdir build
 	cd build
 	cmake ..
 	make
 
-Now run the binary with the command:
+## Running the program ##
+Simply run this line of code in the terminal in the build directory
 
-	./Calculator
+	./projectileMotion
