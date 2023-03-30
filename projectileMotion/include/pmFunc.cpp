@@ -11,15 +11,15 @@ namespace pmFunc {
 	}
 
 	float quadraticEquation(float a, float b, float c, bool sign) {
-		switch sign {
+		switch(sign) {
 			case 0:
-				return (-b + sqrt(pow(b, 2), - 4 * a * c)) / (2 * a);
+				return (-b + sqrt(pow(b, 2) - 4 * a * c)) / (2 * a);
 			case 1:
-				return (-b - sqrt(pow(b, 2), - 4 * a * c)) / (2 * a);
+				return (-b - sqrt(pow(b, 2) - 4 * a * c)) / (2 * a);
 		}
 	}
 
-	float calculateAirTime(float initialHeight, float finalHeight, float initialVelocity, float acceleration){
+	float calculateAirTime(float initialHeight, float finalHeight, float initialYVelocity, float acceleration){
 		float A = 0.5 * acceleration;
 		float B = initialYVelocity;
 		float C = initialHeight - finalHeight;
