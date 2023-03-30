@@ -1,1 +1,1 @@
-add_library(calc calc.cpp)
+add_library(pmFunc pmFunc.cpp)
