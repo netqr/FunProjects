@@ -17,6 +17,6 @@ Simply run this line of code in the terminal in the build directory
 
 ## Useful resources ##
 To use this program you can go to this fun simulation website
-called PHET simulations and predict where a canonball will land.
+called PHET simulations and predict where a canonball will land.\
 Heres the link: [Simulation link](https://phet.colorado.edu/sims/html/projectile-motion/latest/projectile-motion_en.html).
 Make sure to click on Lab.
