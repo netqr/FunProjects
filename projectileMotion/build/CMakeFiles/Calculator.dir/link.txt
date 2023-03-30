@@ -1,1 +1,0 @@
-/usr/sbin/c++ CMakeFiles/Calculator.dir/main.cpp.o -o Calculator   -L/home/jh/dev/FunProjects/calculator/include  -Wl,-rpath,/home/jh/dev/FunProjects/calculator/include include/libcalc.a 
