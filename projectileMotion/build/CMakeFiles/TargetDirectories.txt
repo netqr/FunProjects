@@ -1,0 +1,6 @@
+/home/jh/dev/FunProjects/calculator/build/CMakeFiles/Calculator.dir
+/home/jh/dev/FunProjects/calculator/build/CMakeFiles/edit_cache.dir
+/home/jh/dev/FunProjects/calculator/build/CMakeFiles/rebuild_cache.dir
+/home/jh/dev/FunProjects/calculator/build/include/CMakeFiles/calc.dir
+/home/jh/dev/FunProjects/calculator/build/include/CMakeFiles/edit_cache.dir
+/home/jh/dev/FunProjects/calculator/build/include/CMakeFiles/rebuild_cache.dir
